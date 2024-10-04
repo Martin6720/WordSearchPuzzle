@@ -1,4 +1,14 @@
-Vytvořte program pro řešení osmisměrky.
+Instrukce pro použití:
+Ve složce s aplikací se nachází 2 soubory - InputMatrix.txt a SearchedWords.txt
+Zde vložte vstupní data pro osmisměrku. Je možné použít i hardcoded vstup, který je zakomentován v kódu aplikace.
+
+Pravidla pro vstupní soubory:(Lze zkopírovat vstup poslaný v emailu tak jak je)
+InputMatrix:
+Jednotlivé řádky oddělte řádky ve vstupním textu - ty pak budou představovat řádky matice.
+SearchedWords:
+Slova oddělte řádkem.
+
+Zadání: Vytvořte program pro řešení osmisměrky.
 
 Program musí umožnit zadání matice znaků reprezentující vlastní osmisměrku.
 Program musí umožnit zadání hledaných slov.
