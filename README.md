@@ -10,7 +10,7 @@ Pravidla pro vstupní soubory:(Lze zkopírovat vstup poslaný v emailu tak jak j
 InputMatrix:
 Jednotlivé řádky oddělte řádky ve vstupním textu - ty pak budou představovat řádky matice.
 SearchedWords:
-Slova oddělte řádkem.
+Slova oddělte řádkem či mezerou.
 
 **Zadání:** Vytvořte program pro řešení osmisměrky.
 
