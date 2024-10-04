@@ -45,9 +45,9 @@ namespace WordSearchPuzzleSolver
                 {
                     FindWord(word, v);
                 }
-                SolveMatrix();
-                GetSolutionFromSolvedMatrix();
             }
+            SolveMatrix();
+            GetSolutionFromSolvedMatrix();
         }
         public void SolveMatrix()
         {

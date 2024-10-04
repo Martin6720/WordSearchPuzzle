@@ -20,7 +20,7 @@ namespace WordSearchPuzzleSolver
                 {
                     _LocationsCovered = new List<(int, int)>();
                     for (int i = 0; i < Word.Length; i++)
-                        _LocationsCovered.Add((Location.Item1 + i * Direction.Item1, Location.Item2 + i * Direction.Item2 * i));
+                        _LocationsCovered.Add((Location.Item1 + i * Direction.Item1, Location.Item2 + i * Direction.Item2));
                 }
                 return _LocationsCovered;
             }
