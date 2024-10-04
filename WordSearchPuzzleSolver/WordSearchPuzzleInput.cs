@@ -13,6 +13,9 @@ namespace WordSearchPuzzleSolver
         public List<string> SearchedWords { get; set; }
         public WordSearchPuzzleInput(string stringMatrix, string stringSearchedWords)
         {
+            //Sanitaze input
+            stringMatrix = stringMatrix.ToUpper();
+            stringSearchedWords = stringSearchedWords.ToUpper();
             var lines = stringMatrix.Split(new string[] { Environment.NewLine + Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
             Regex.Replace(lines[0], @"[^a-zA-Z]", "");
             int size = lines[0].Length;
