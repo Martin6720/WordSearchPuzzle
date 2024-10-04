@@ -1,4 +1,8 @@
-Instrukce pro použití:
+**WordSearchPuzzle**
+
+První verze aplikace. Bez uživatelského rozhraní - vstupní data se načítají ze souborů a výstup je zobrazen v konzoli.
+
+**Instrukce:**
 Ve složce s aplikací se nachází 2 soubory - InputMatrix.txt a SearchedWords.txt
 Zde vložte vstupní data pro osmisměrku. Je možné použít i hardcoded vstup, který je zakomentován v kódu aplikace.
 
@@ -8,7 +12,7 @@ Jednotlivé řádky oddělte řádky ve vstupním textu - ty pak budou představ
 SearchedWords:
 Slova oddělte řádkem.
 
-Zadání: Vytvořte program pro řešení osmisměrky.
+**Zadání:** Vytvořte program pro řešení osmisměrky.
 
 Program musí umožnit zadání matice znaků reprezentující vlastní osmisměrku.
 Program musí umožnit zadání hledaných slov.
