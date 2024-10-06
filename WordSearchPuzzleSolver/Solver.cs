@@ -9,7 +9,7 @@ namespace WordSearchPuzzleSolver
         public WordSearchRules Rules { get; private set; }
         public List<string> SearchedWords { get; private set; }
         public List<PuzzleWord> FoundWords { get;} = new List<PuzzleWord>();
-        public string Solution { get; private set; }
+        public string? Solution { get; private set; }
         public Solver(WordSearchPuzzleInput input, WordSearchRules rules) 
         {
             SearchedWords = input.SearchedWords;
@@ -36,6 +36,7 @@ namespace WordSearchPuzzleSolver
         public void Solve()
         {
             FoundWords.Clear();
+            Solution = null;
             CreateCharMap();
             foreach (string word in SearchedWords)
             {
