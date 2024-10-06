@@ -8,10 +8,10 @@ namespace WordSearchPuzzleSolver
 {
     public class PuzzleWord
     {
-        public string Word { get; set; }
-        public (int, int) Location { get; set; }
-        public (int, int) Direction { get; set; }
-        private List<(int, int)> _LocationsCovered;
+        public string Word { get; }
+        public (int, int) Location { get; }
+        public (int, int) Direction { get; }
+        private List<(int, int)>? _LocationsCovered;
         public List<(int, int)> LocationsCovered
         {
             get

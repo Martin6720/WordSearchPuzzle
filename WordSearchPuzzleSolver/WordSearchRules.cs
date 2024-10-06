@@ -15,7 +15,7 @@ namespace WordSearchPuzzleSolver
     public class WordSearchRules
     {
         public WordSearchType WordSearchType { get; set; }
-        public List<(int, int)> AllowedDirections { get; set; }
+        public List<(int, int)> AllowedDirections { get; set; } = new List<(int, int)>();
         public WordSearchRules() { }
         public WordSearchRules ConfigureRules()
         {
@@ -23,7 +23,7 @@ namespace WordSearchPuzzleSolver
             ConfigureWordSearchType(WordSearchType);
             return this;
         }
-        public void ConfigureWordSearchType(WordSearchType wordSearchType)
+        private void ConfigureWordSearchType(WordSearchType wordSearchType)
         {
             AllowedDirections = new List<(int, int)>();
             if (wordSearchType == WordSearchType.FourWay)
